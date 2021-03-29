@@ -1,0 +1,140 @@
+@media screen and (min-width:1024px)
+{
+    body{
+        width: 100%;
+    }
+} 
+
+@media screen and (min-width:768px) and (max-width:1024px)
+{
+    body{
+        width: 100%;
+    }
+} 
+
+@media screen and (min-width:412px) and (max-width:768px)
+{
+    body{
+        width: 100%;
+    }
+    
+    /* Navbar */
+    .logo>img{
+        height: 18px;
+        margin-top: 20px;
+    }
+
+    .menu p{
+        font-size: 7px;
+    }
+
+    .menu img{
+        width: 20px;
+    }
+    .menu > div {
+        margin: 2px;
+    }
+
+    /* Section packages */
+    .packages{
+        height: 140px;
+    }   
+    .packages img{
+        height: 60px;
+        width: 60px;
+    }
+
+    #text-packages{
+        padding-left: 0px;
+    }
+    #text-packages > .up{
+        font-size: 20px;
+        margin-top: 40px;
+    }
+    #text-packages > .down{
+        font-size: 14px;
+    }
+    #logo-packages{
+        padding-right: 0 0;
+    }
+    #logo-packages>img {
+        margin: 40px 40px;
+    }   
+
+/* section eclosion, evolution et envol */
+.title-eclosion>h1{
+    /* text-align: center; */
+    width: 100%;
+    margin: 0 0px;
+    padding: 0 0px;
+}
+
+/* en dessous d'éclosion */
+.div-eclosion{
+    display: inline-block;
+}
+#eclosion >img{
+    height: 170px;
+    margin-left: 100%;
+}
+#text-eclosion{
+    padding: 0 ;
+    margin-left: 70px;
+    text-align: justify;
+}
+.dispo-logo{
+    padding-bottom: 0px;
+    padding: 20px 10px;
+}
+.dispo-logo>div>p{
+    margin-bottom: 0;
+    font-size: small;
+}
+
+.dispo-logo>div>img{
+    width: 60px;
+}
+
+/* en dessous d'evolution */
+.dispo-logo-exception>div>img {
+    width: 60px;
+}
+.dispo-logo-exception>div{
+    font-size: small;
+}
+
+/* section footer */
+.div-footer>div>img {
+    width: 20px;
+}
+.div-footer>div>p {
+    margin: 13px 0;
+}
+.div-footer{
+    font-size: 16px;
+    padding: 0;
+}
+.cond{
+    padding-bottom: 0;
+    font-size: 10px;
+}
+}
+
+@media screen and (min-width:360px) and (max-width:412px)
+{
+    body{
+        width: 216%; 
+        padding-right: 0px;
+    }
+    nav{
+        justify-content: center;
+    }
+    .logo{
+        display: none;
+    }
+    .title-eclosion>h1{
+        padding-right: 0px;
+        width: 45%;
+    }
+
+} 
